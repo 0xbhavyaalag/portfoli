@@ -1,56 +1,44 @@
-# 👋 Namaste(); I'm Bhavya Alag — aka Bhavya Nova
+# vCard - Personal portfolio
 
-> “I don’t just write code — I craft experiences for the web.”
+![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
+![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
+![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
+[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
+[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
 
-I’m a Web Developer passionate about creating beautiful, interactive, and smart web experiences. From sleek UI design to integrating powerful backend logic, I’m all about making the web **fun**, **functional**, and **fast**.
+vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
 
----
+## Demo
 
-## 💡 Developer Origin Story
+![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
+![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
 
-My journey began in **2024**, when I dove into the world of **Computer Science Engineering**. What started as a curiosity soon became a passion. I didn’t want to just make static pages — I wanted to **build things that move, think, and interact.**
+## Prerequisites
 
----
+Before you begin, ensure you have met the following requirements:
 
-## 🔥 What I’m Good At
+* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
 
-- Designing clean, responsive **Frontend UIs** with **HTML, CSS, and JavaScript**
-- Bringing ideas to life using **Backend integration** and dynamic logic
-- Turning imagination into interfaces that feel **alive and intuitive**
-- Writing **clean code** and solving **real-world problems** with smart solutions
+## Installing vCard
 
----
+To install **vCard**, follow these steps:
 
-## 💻 Tech Stack & Skills
+Linux and macOS:
 
-**Languages:**  
-`HTML` `CSS` `JavaScript` `C/C++`
+```bash
+sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
+```
 
-**Tools & Platforms:**  
-`VS Code` `GitHub` `Chrome DevTools`
+Windows:
 
-**Vibes:**  
-💡 Developer by skill, Designer by heart
+```bash
+git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
+```
 
-**Core Strengths:**  
-🎨 Creative Thinking | 🤝 Collaboration | 🐞 Debugging | 💎 Clean UI/UX
+## Contact
 
----
+If you want to contact me you can reach me at [Twitter](https://www.x.com/codewithsadee_).
 
-## 🧭 Current Focus
+## License
 
-I’m currently working on building projects that are:
-
-- **Visually stunning**
-- **Technically robust**
-- **User-first**
-
-I believe in clean code, smooth animations, and UI that makes users go:
-
-> “Whoa, that’s cool.”
-
----
-
-## 🎯 Mission
-
-To **collaborate with innovative teams**, **contribute to impactful projects**, and **grow into a well-rounded software engineer** who
+MIT

@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhavya Alag - Web Developer Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="my logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="my.png" alt="Bhavya Alag" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Bhavya Alag">Bhavya Alag</h1>
+
+          <p class="title">Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:bhavyaalag07@gmail.com" class="contact-link">bhavyaalag07@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+917849952185" class="contact-link">+917849952185</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2006-03-23">March 23, 2006</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Narayan Vihar,
+
+                Rajgarh, Alwar,
+                
+                Rajasthan-301408</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/0xbhavyaalag" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://x.com/Bhavyaalag007?t=fnpiyWcQigb-0CI-K_drAw&s=09" class="social-link" target="_blank">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/iambhavyaalag_?igsh=YTJ4d2hscG4xYTdi" class="social-link" target="_blank">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/bhavya-alag-9307b2330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+                  <section class="about-text">
+            <p>
+              👋 Namaste(); I'm <strong>Bhavya Alag</strong>
+            </p>
+          
+          <p>
+            <em>"I don't just write code — I craft experiences for the web."</em>
+          </p>
+
+          <p>
+            I'm a Web Developer with a love for building beautiful, interactive, and smart web experiences. From designing sleek user interfaces to integrating powerful backend logic, I'm all about making the web fun, functional, and fast.
+          </p>
+
+          <h4>💡 My Developer Origin Story</h4>
+          <p>
+            My web dev journey began in 2024, when I took a leap into the world of Computer Science Engineering. What started with curiosity turned into passion — I realized I didn't want to just create static pages, I wanted to build things that move, think, and interact.
+          </p>
+
+          <h4>🔥 What I'm Good At</h4>
+          <ul>
+            <li>Designing clean, responsive Frontend UIs with HTML, CSS, and JavaScript</li>
+            <li>Bringing ideas to life using Backend integration and dynamic logic</li>
+            <li>Turning imagination into interfaces that feel alive and intuitive</li>
+            <li>Writing clean code and solving real-world problems with smart solutions</li>
+          </ul>
+
+          <h4>💻 Tech Stack & Skills</h4>
+          <p>
+            <strong>Languages:</strong> HTML, CSS, JavaScript, C/C++<br>
+            <strong>Tools:</strong> VS Code, GitHub, Chrome DevTools<br>
+            <strong>Vibes:</strong> Developer by skill, Designer by heart<br>
+            <strong>Strengths:</strong> Creative Thinking, Collaboration, Debugging, Clean UI/UX
+          </p>
+
+          <h4>🧭 Current Focus</h4>
+          <p>
+            Right now, I'm focused on building visually stunning, technically robust, and user-first projects that reflect both skill and soul. I believe in clean code, smooth animations, and UI that makes users go "Whoa, that's cool."
+          </p>
+
+          <h4>🎯 Mission</h4>
+          <p>
+            To collaborate with innovative teams, contribute to impactful projects, and evolve into a well-rounded software engineer who blends logic, creativity, and precision.
+          </p>
+
+          <h4>🧠 Personal Code of Dev-Life</h4>
+          <ul>
+            <li>Keep learning. Stay curious.</li>
+            <li>Build for users, not just machines.</li>
+            <li>Aesthetics + Function = Magic</li>
+            <li>Add a touch of Nova to everything I create 💫</li>
+          </ul>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="icon-design.svg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Frontend Development</h4>
+
+                <p class="service-item-text">
+                  Crafting beautiful, responsive user interfaces with HTML, CSS, and JavaScript that bring designs to life.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Development</h4>
+
+                <p class="service-item-text">
+                  Building dynamic, interactive web applications with clean code and modern development practices.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">UI/UX Design</h4>
+
+                <p class="service-item-text">
+                  Creating intuitive user experiences that blend aesthetics with functionality for maximum impact.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Problem Solving</h4>
+
+                <p class="service-item-text">
+                  Debugging complex issues and finding elegant solutions to real-world programming challenges.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - achievements
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Recent Achievements</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="avatar-1.png" alt="Project 1" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Anveshan 2024 </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Certificate of Participation
+Anveshan 2024 – West Zone Student Research Convention
+D.Y. Patil (Deemed to be University), Navi Mumbai
+
+Awarded to Bhavya Alag (Poornima University, Jaipur) for presenting the project “Comprehensive Study of Male Rape” under the category of Social Science, Humanities, Commerce & Law during Anveshan 2024, held on January 30–31, 2025. This recognition showcases excellent research initiative, critical thinking, and a commitment to addressing sensitive social issues.
+
+
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="avatar-2.png" alt="Project 2" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>C & C++ Programming Internship
+                  Samyak IT Solutions Pvt Ltd</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    C & C++ Programming Internship
+                    Samyak IT Solutions Pvt Ltd
+                    
+                    Awarded to Bhavya Alag for the successful completion of a Live Project-Based Internship cum Training in C & C++ Programming, completed from May 6, 2024, to November 27, 2024, with Grade A+.
+                    
+                    This certificate highlights advanced technical skills in C & C++ programming through hands-on project work, contributing to a robust professional portfolio.
+                    
+                    Certificate of Completion
+                    Software Programmer Course
+                    Samyak IT Solutions Private Limited
+                    
+                    This certifies that Bhavya Alag has successfully completed the Software Programmer Course with Grade A, issued on October 4, 2024.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="avatar-3.png" alt="Project 3" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Cyber Security Workshop
+                  ASD Academy</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Cyber Security Workshop
+ASD Academy
+
+This certifies that Bhavya Alag has successfully completed a one-day workshop in Cyber Security conducted by ASD Academy on January 27, 2025.
+
+This certificate affirms practical exposure to essential cybersecurity concepts and hands-on defensive strategies, providing a strong foundation for further professional growth in the field.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="avatar-4.png" alt="Project 4" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>12 Hour Hackathon, AADHAR 13 – Tech-Fest</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    <em>Poornima College of Engineering, Jaipur</em><br><br>
+                    Awarded to Bhavya Alag for active participation in the 12 Hour Hackathon as part of AADHAR 13, held at Poornima College of Engineering, Jaipur, from February 21 to 22, 2025.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="avatar-1.png" alt="Project 5" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Google Solution Challenge Hackathon</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Google Solution Challenge Hackathon (Powered by Hack2Skill)
+
+Certificate of Achievement
+Recognized for contributing an innovative AI-driven solution in the GDG on Campus Hackathon. Joined a global community of changemakers tackling real-world challenges through technology.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Personal Portfolio Website</h4>
+
+              <time datetime="2024-12-01">December 2024</time>
+
+              <div data-modal-text>
+                <p>
+                  Built a responsive personal portfolio showcasing my skills in HTML, CSS, and JavaScript. Features modern design, smooth animations, and mobile-first approach. This project demonstrates my ability to create clean, professional websites that effectively communicate skills and experience.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+          <div class="resume-download">
+            <a href="my resume.pdf" class="download-btn" download>
+              <ion-icon name="download-outline"></ion-icon>
+              <span>Download Resume</span>
+            </a>
+          </div>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Computer Science Engineering</h4>
+
+              <span>2024 — Present</span>
+
+              <p class="timeline-text">
+                Currently pursuing Computer Science Engineering, focusing on web development, programming fundamentals, and software engineering principles.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Development Self-Learning</h4>
+
+              <span>2024 — Present</span>
+
+              <p class="timeline-text">
+                Intensive self-study in HTML, CSS, JavaScript, and modern web development practices through online courses and hands-on projects.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">High School Education</h4>
+
+              <span>2020 — 2024</span>
+
+              <p class="timeline-text">
+                Completed high school with strong foundation in mathematics, science, and computer fundamentals that support my programming journey.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Student Developer & Freelancer</h4>
+
+              <span>2024 — Present</span>
+
+              <p class="timeline-text">
+                Building personal projects and taking on freelance web development work while pursuing Computer Science Engineering degree.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Open Source Contributor</h4>
+
+              <span>2024 — Present</span>
+
+              <p class="timeline-text">
+                Contributing to open source projects, learning from the community, and building a portfolio of diverse web applications.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Personal Project Development</h4>
+
+              <span>2024 — Present</span>
+
+              <p class="timeline-text">
+                Creating innovative web applications, experimenting with new technologies, and developing skills through hands-on coding projects.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <div class="skill-icon">
+                  <ion-icon name="logo-html5"></ion-icon>
+                </div>
+                <h5 class="h5">HTML & CSS</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <div class="skill-icon">
+                  <ion-icon name="logo-javascript"></ion-icon>
+                </div>
+                <h5 class="h5">JavaScript</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <div class="skill-icon">
+                  <ion-icon name="code-outline"></ion-icon>
+                </div>
+                <h5 class="h5">C/C++</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <div class="skill-icon">
+                  <ion-icon name="brush-outline"></ion-icon>
+                </div>
+                <h5 class="h5">UI/UX Design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <!-- Projects will be added here in the future -->
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
